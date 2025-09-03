@@ -120,6 +120,29 @@ section {
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
+/* ✅ Mobile fix */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        background: none; /* phone par background hata do */
+        padding: 20px;
+    }
+
+    .home::after {
+        content: "";
+        display: block;
+        width: 80%;
+        height: 250px;
+        margin: 20px auto 0;
+        background: url('chetan2.jpg') no-repeat center;
+        background-size: contain;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+}
 
 .btn-box {
     position: relative;
