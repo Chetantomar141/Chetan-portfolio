@@ -120,13 +120,13 @@ section {
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
-/* ✅ Mobile fix */
+/* ✅ Mobile Responsive Fix */
 @media (max-width: 768px) {
     .home {
         flex-direction: column;
         text-align: center;
-        background: none; /* phone par background hata do */
         padding: 20px;
+        background: none; /* mobile pe background hata do */
     }
 
     .home::after {
@@ -142,7 +142,16 @@ section {
     .home-content {
         max-width: 100%;
     }
+
+    .home-content h1 {
+        font-size: 3.2rem;  /* phone me thoda chhota */
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 2rem;
+    }
 }
+
 
 .btn-box {
     position: relative;
