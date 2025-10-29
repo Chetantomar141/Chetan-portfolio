@@ -84,13 +84,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: url('chetan2.jpg') no-repeat right center; */
-    /* background-size: contain; */
     background-color: var(--bg-color);
     padding: 10rem 9% 2rem;
     min-height: 100vh;
     gap: 2rem;
 }
+
 
 .home-content {
     flex: 1;
