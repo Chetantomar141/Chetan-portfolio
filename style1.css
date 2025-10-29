@@ -150,8 +150,8 @@ section {
 
 .home-sci {
     position: absolute;
-    bottom: 60px;  /* 👈 icons ko page ke bottom ke paas le aata hai */
-    left: 13%;
+    bottom: 60px;  
+    left: 10%;
     display: flex;
     gap: 1.5rem;
     z-index: 2;
@@ -628,3 +628,4 @@ width: 100%;
     color: var(--main-color);
 
 }
+
