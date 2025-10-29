@@ -151,7 +151,7 @@ section {
 .home-sci {
     position: absolute;
     bottom: 60px;  /* 👈 icons ko page ke bottom ke paas le aata hai */
-    left: 25%;
+    left: 13%;
     display: flex;
     gap: 1.5rem;
     z-index: 2;
@@ -626,4 +626,5 @@ width: 100%;
 
 .footer-iconTop a:hover i {
     color: var(--main-color);
+
 }
