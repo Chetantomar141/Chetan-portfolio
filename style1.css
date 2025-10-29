@@ -184,16 +184,7 @@ section {
         background: none; 
     }
 
-    /* .home::after {
-        content: "";
-        display: block;
-        width: 90%;
-        height: 250px;
-        margin: 20px auto 0;
-        background: url('chetan2.jpg') no-repeat center;
-        background-size: contain;
-    } */
-
+   
     .home-content h1 {
         font-size: 3.6rem;
     }
@@ -626,6 +617,7 @@ width: 100%;
     color: var(--main-color);
 
 }
+
 
 
 
